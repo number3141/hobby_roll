@@ -1,0 +1,24 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+.env/
+
+# Общие файлы venv (если не игнорируются целиком)
+venv/pyvenv.cfg
+venv/Scripts/
+venv/bin/
+venv/Lib/
+venv/lib/
+venv/include/
+venv/share/
+
+# Кэши и логи venv
+venv/*.log
+venv/pip-selfcheck.json
+venv/pip-log.txt
+
+# Альтернативы
+env/
+.conda/
+conda-meta/
