@@ -12,11 +12,13 @@ venv/Lib/
 venv/lib/
 venv/include/
 venv/share/
+.idea/
 
 # Кэши и логи venv
 venv/*.log
 venv/pip-selfcheck.json
 venv/pip-log.txt
+__pycache__/
 
 # Альтернативы
 env/
